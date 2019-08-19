@@ -1,0 +1,33 @@
+{
+  "name": "scoutbase_challenge",
+  "version": "1.0.0",
+  "description": "Discover Build & Organize",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server": "^2.8.1",
+    "apollo-server-express": "^2.8.1",
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "graphql": "^14.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "pg": "^7.6.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^6.0.0",
+    "graphql-tools": "latest"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CloudMash@bitbucket.org/CloudMash/game_roster_node.git"
+  },
+  "author": "CloudMash LLC",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/CloudMash/game_roster_node#readme"
+}
